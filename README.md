@@ -1,2 +1,2 @@
 # Simulation-VR
-For CA, IDTS
+For ISDT CA1 Construction Simulator
