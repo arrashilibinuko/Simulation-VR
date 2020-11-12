@@ -4,7 +4,13 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/_MyProject/Scenes/SplashScreen.unity
+    guid: f056474c0168e4740bc52202e4274a4f
+  - enabled: 1
+    path: Assets/_MyProject/Scenes/Menu.unity
+    guid: 495f306cee5eba445a110fcd22930bf2
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 5f320aa5ff5a7904eb85e86572734c7d,
       type: 2}
