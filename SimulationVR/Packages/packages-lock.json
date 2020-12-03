@@ -30,6 +30,7 @@
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
+<<<<<<< HEAD
     "com.unity.inputsystem": {
       "version": "1.0.0",
       "depth": 1,
@@ -37,6 +38,8 @@
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
+=======
+>>>>>>> 648a9754c031a77d5ce48fbea04a92f1fc54b28f
     "com.unity.probuilder": {
       "version": "4.4.0",
       "depth": 0,
