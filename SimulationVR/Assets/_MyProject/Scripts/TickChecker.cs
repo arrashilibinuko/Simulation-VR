@@ -18,7 +18,10 @@ public class TickChecker : MonoBehaviour
 
     public void enableTick(string zoneName)
     {
-
+        if (zoneName == "cube")
+        {
+            Tick1.GetComponent<MeshRenderer>().material = CompleteMaterial;
+        }
     }
 
 
