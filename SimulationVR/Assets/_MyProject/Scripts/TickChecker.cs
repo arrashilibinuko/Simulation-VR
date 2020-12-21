@@ -15,6 +15,13 @@ public class TickChecker : MonoBehaviour
     public bool Check2;
     public bool Check3;
 
+
+    public void enableTick(string zoneName)
+    {
+
+    }
+
+
     private void Start()
     {
         Debug.Log("start");
