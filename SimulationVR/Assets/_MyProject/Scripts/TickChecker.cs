@@ -12,9 +12,9 @@ public class TickChecker : MonoBehaviour
     public GameObject Tick2;
     public GameObject Tick3;
 
-    private bool Check1;
-    private bool Check2;
-    private bool Check3;
+    public bool Check1 = false;
+    public bool Check2 = false;
+    public bool Check3 = false;
 
 
     public void enableTick(string zoneName)
@@ -32,7 +32,7 @@ public class TickChecker : MonoBehaviour
         if (Check1 == true)
         {
             Debug.Log("win");
-            Application.LoadLevel("Win");
+            //Application.LoadLevel("Win");
         }
     }
 
@@ -45,6 +45,6 @@ public class TickChecker : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        checkIfComplete();
+       // checkIfComplete();
     }
 }
