@@ -18,8 +18,9 @@ public class TickChecker : MonoBehaviour
 
     public void enableTick(string zoneName)
     {
-        if (zoneName == "cube")
+        if (zoneName == "wetFloorSign")
         {
+            Debug.Log(zoneName);
             Tick1.GetComponent<MeshRenderer>().material = CompleteMaterial;
         }
     }
@@ -33,17 +34,6 @@ public class TickChecker : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Check1 == true)
-        {
-            Tick1.GetComponent<MeshRenderer>().material = CompleteMaterial;
-        }
-        if (Check2 == true)
-        {
-            Tick2.GetComponent<MeshRenderer>().material = CompleteMaterial;
-        }
-        if (Check3 == true)
-        {
-            Tick3.GetComponent<MeshRenderer>().material = CompleteMaterial;
-        }
+       
     }
 }
