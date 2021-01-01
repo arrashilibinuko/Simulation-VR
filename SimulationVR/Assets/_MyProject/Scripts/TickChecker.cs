@@ -4,6 +4,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+//-----------------------------------------------------------------------------------------------------
+//Author: Arrashi
+//Description of code: When a object enters a snapzone, this script is called to enable the tick on the clipboard
+//-----------------------------------------------------------------------------------------------------
+
 public class TickChecker : MonoBehaviour
 {
 
@@ -17,7 +22,7 @@ public class TickChecker : MonoBehaviour
     public bool Check3 = false;
 
 
-    public void enableTick(string zoneName)
+    public void enableTick(string zoneName)// enable tick when object enters snapzone
     {
         if (zoneName == "wetFloorSign")
         {
@@ -27,7 +32,7 @@ public class TickChecker : MonoBehaviour
         }
     }
 
-    public void checkIfComplete()
+    public void checkIfComplete()//when submit button is pressed, check to see if all tasks are completed
     {
         if (Check1 == true)
         {
